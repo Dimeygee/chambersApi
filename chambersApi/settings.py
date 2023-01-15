@@ -88,6 +88,7 @@ DATABASES = {
     }
 }
 
+CSRF_TRUSTED_ORIGINS = ['https://web-production-e217.up.railway.app']
 
 
 # Password validation
