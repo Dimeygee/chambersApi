@@ -1,0 +1,1 @@
+web: gunicorn chambersApi.wsgi --log-file -
