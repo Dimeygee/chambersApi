@@ -79,16 +79,10 @@ WSGI_APPLICATION = 'chambersApi.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME':'railway' ,
-        'USER':'postgres',
-        'PASSWORD':'odtOprK7Qhf1H8saceUW',
-        'HOST':"containers-us-west-25.railway.app",
-        'PORT':'7005',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
-CSRF_TRUSTED_ORIGINS = ['https://web-production-e217.up.railway.app']
 
 
 # Password validation
